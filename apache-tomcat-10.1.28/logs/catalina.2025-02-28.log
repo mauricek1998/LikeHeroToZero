@@ -1,0 +1,102 @@
+28-Feb-2025 16:26:19.647 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.1.28
+28-Feb-2025 16:26:19.648 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+28-Feb-2025 16:26:19.648 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+28-Feb-2025 16:26:19.648 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Feb-2025 16:26:19.648 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            14.3.1
+28-Feb-2025 16:26:19.649 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           aarch64
+28-Feb-2025 16:26:19.649 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home
+28-Feb-2025 16:26:19.649 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+28-Feb-2025 16:26:19.649 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+28-Feb-2025 16:26:19.649 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/mau/LikeHeroToZero/apache-tomcat-10.1.28
+28-Feb-2025 16:26:19.649 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/mau/LikeHeroToZero/apache-tomcat-10.1.28
+28-Feb-2025 16:26:19.653 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/conf/logging.properties
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28
+28-Feb-2025 16:26:19.654 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/temp
+28-Feb-2025 16:26:19.658 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/mau/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Feb-2025 16:26:19.805 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+28-Feb-2025 16:26:19.814 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Konnte Komponente [Connector["http-nio-8080"]] nicht initialisieren
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:961)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1317)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:632)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:79)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1028)
+		... 11 more
+28-Feb-2025 16:26:19.814 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [265] milliseconds
+28-Feb-2025 16:26:19.831 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2025 16:26:19.831 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+28-Feb-2025 16:26:19.841 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/APP.war]
+28-Feb-2025 16:26:20.663 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2025 16:26:20.674 INFO [main] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+28-Feb-2025 16:26:20.684 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.2 (Final)
+28-Feb-2025 16:26:20.745 INFO [main] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+28-Feb-2025 16:26:20.822 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+28-Feb-2025 16:26:20.948 INFO [main] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+28-Feb-2025 16:26:21.064 INFORMATION [main] com.sun.faces.config.ConfigureListener.contextInitialized Mojarra 4.0.0-M1 für Kontext '/APP' wird initialisiert.
+28-Feb-2025 16:26:21.118 INFORMATION [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy-Annotationen vorhanden.  Verwaltete Bean-Methoden, die mit diesen Annotationen markiert sind, lassen die entsprechenden Annotationen verarbeiten.
+28-Feb-2025 16:26:21.367 INFORMATION [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 11.0.0
+28-Feb-2025 16:26:21.386 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/APP.war] has finished in [1.544] ms
+28-Feb-2025 16:26:21.386 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/docs]
+28-Feb-2025 16:26:21.405 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2025 16:26:21.406 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/docs] has finished in [20] ms
+28-Feb-2025 16:26:21.406 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/manager]
+28-Feb-2025 16:26:21.422 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2025 16:26:21.425 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/manager] has finished in [19] ms
+28-Feb-2025 16:26:21.426 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/examples]
+28-Feb-2025 16:26:21.502 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2025 16:26:21.510 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/examples] has finished in [84] ms
+28-Feb-2025 16:26:21.510 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/ROOT]
+28-Feb-2025 16:26:21.522 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2025 16:26:21.523 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/ROOT] has finished in [12] ms
+28-Feb-2025 16:26:21.523 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/host-manager]
+28-Feb-2025 16:26:21.536 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2025 16:26:21.537 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/mau/LikeHeroToZero/apache-tomcat-10.1.28/webapps/host-manager] has finished in [13] ms
+28-Feb-2025 16:26:21.538 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [1723] milliseconds
+28-Feb-2025 16:26:21.540 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+28-Feb-2025 16:26:21.541 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Feb-2025 16:26:21.541 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Feb-2025 16:26:21.560 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Feb-2025 16:26:21.560 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

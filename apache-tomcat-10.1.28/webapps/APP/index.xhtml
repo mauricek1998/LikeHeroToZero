@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+  <h:head>
+    <title>From Hero To Zero new</title>
+    <style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #444;
+  }
+  .headerbox {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+  }
+  .headerbox h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  #buttonBereich {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #bdc3c7;
+  }
+  #buttonBereich input,
+  #buttonBereich button,
+  #buttonBereich .ui-inputfield {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #buttonBereich input,
+  #buttonBereich button {
+    background-color: #ecf0f1;
+    color: #444;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #buttonBereich input:hover,
+  #buttonBereich button:hover {
+    background-color: #dcdcdc;
+  }
+  .dataTableContainer {
+    margin: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #7f8c8d;
+    color: #fff;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+</style>
+
+  </h:head>
+  <h:body>
+    <div class="headerbox">
+      <h1>Willkommen bei Like Hero To Zero</h1>
+    </div>
+    <h:form>
+      <div id="buttonBereich">
+        <h:commandButton action="login.xhtml" value="Zum Login Bereich" />
+        <h:inputText value="#{emissionController.suchLand}" />
+        <h:commandButton action="#{emissionController.suchen}" value="Suchen" />
+      </div>
+      <div class="dataTableContainer">
+        <p:dataTable value="#{emissionController.suchErgebnisse}" var="datensatz" lazy="true">
+          <p:column headerText="Land">
+            <h:outputText value="#{datensatz.land.name}" />
+          </p:column>
+          <p:column headerText="Co2-Wert (in Mio. Tonnen)">
+            <h:outputText value="#{datensatz.co2Wert}" />
+          </p:column>
+          <p:column headerText="Messdatum">
+            <h:outputText value="#{datensatz.datumFormatted}" />
+          </p:column>
+        </p:dataTable>
+      </div>
+    </h:form>
+  </h:body>
+</html>

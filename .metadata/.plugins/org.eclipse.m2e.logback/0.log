@@ -1,0 +1,8 @@
+2025-02-28 16:18:16,077 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-02-28 16:18:41,526 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: LikeHeroToZero:LikeHeroToZero:0.1-SNAPSHOT @ /Users/mau/LikeHeroToZero/Project/APP/pom.xml.
+2025-02-28 16:18:42,255 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-02-28 16:18:42,269 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/mau/LikeHeroToZero/Project/APP/src/test/resources
+2025-02-28 16:18:42,365 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: LikeHeroToZero:LikeHeroToZero:0.1-SNAPSHOT @ /Users/mau/LikeHeroToZero/Project/APP/pom.xml.
+2025-02-28 16:18:43,581 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-02-28 16:18:43,583 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/mau/LikeHeroToZero/Project/APP/src/test/resources
+2025-02-28 16:19:53,580 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration

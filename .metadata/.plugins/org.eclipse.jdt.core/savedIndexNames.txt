@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+/Users/mau/LikeHeroToZero/.metadata/.plugins/org.eclipse.jdt.core
+2040367907.index
+911871195.index
